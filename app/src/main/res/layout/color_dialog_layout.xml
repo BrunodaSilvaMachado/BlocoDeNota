@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:padding="10dp">
+
+	<TextView
+				android:drawableStart="@drawable/baseline_format_color_text_black_18dp"
+				android:paddingTop="5dp"
+				android:layout_marginBottom="16dp"
+			android:layout_height="wrap_content"
+			android:text="@string/color"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="wrap_content"/>
+
+	<ImageView
+			android:layout_height="100dp"
+			android:layout_width="480dp"
+			android:background="#9CD2FF"
+			style="@style/AppTheme"
+			android:id="@+id/colordialoglayoutImageViewPick" android:contentDescription="@string/color"/>
+
+	<TableRow android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1.0"
+			  android:orientation="horizontal" android:gravity="center|start" android:paddingBottom="5dp">
+		<TextView
+				android:text="@string/red"
+				android:textSize="16sp"
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"/>
+		<TextView android:id="@+id/colordialoglayoutTextViewR" android:layout_height="wrap_content"
+				  android:layout_width="wrap_content" android:textSize="16sp"/>
+	</TableRow>
+
+
+	<SeekBar
+			android:max="255"
+			android:paddingStart="12dp"
+			android:paddingEnd="10dp"
+			android:paddingBottom="10dp"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:id="@+id/colordialoglayoutSeekBarRed"
+		android:layout_marginBottom="10dp"
+		style="@style/AppTheme.NoActionBar"/>
+
+	<TableRow android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1.0"
+			  android:orientation="horizontal" android:gravity="center|start" android:paddingBottom="5dp">
+		<TextView
+				android:text="@string/green"
+				android:textSize="16sp"
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"/>
+		<TextView android:id="@+id/colordialoglayoutTextViewG" android:layout_height="wrap_content"
+				  android:layout_width="wrap_content" android:textSize="16sp"/>
+	</TableRow>
+
+	<SeekBar
+			android:max="255"
+			android:paddingStart="12dp"
+			android:paddingEnd="10dp"
+			android:paddingBottom="10dp"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:id="@+id/colordialoglayoutSeekBarGreen"
+		style="@style/AppTheme"
+		android:layout_marginBottom="10dp"/>
+
+	<TableRow android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1.0"
+			  android:orientation="horizontal" android:gravity="center|start" android:paddingBottom="5dp">
+		<TextView
+				android:text="@string/blue"
+				android:textSize="16sp"
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"/>
+		<TextView android:id="@+id/colordialoglayoutTextViewB" android:layout_height="wrap_content"
+				  android:layout_width="wrap_content" android:textSize="16sp"/>
+	</TableRow>
+
+	<SeekBar
+			android:max="255"
+			android:paddingStart="12dp"
+			android:paddingEnd="10dp"
+			android:paddingBottom="10dp"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:id="@+id/colordialoglayoutSeekBarBlue"
+		style="@style/AppTheme"
+		android:layout_marginBottom="10dp"/>
+
+	<TableRow
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent">
+
+		<TextView
+			android:layout_height="match_parent"
+			android:textAlignment="textEnd"
+			style="@style/AppTheme"
+			android:gravity="end"
+			android:layout_width="wrap_content"
+			android:text="#"/>
+
+		<EditText
+				style="@style/Widget.AppCompat.EditText"
+				android:paddingStart="2dp"
+				android:paddingEnd="5dp"
+				android:layout_height="wrap_content"
+				android:ems="10"
+				android:layout_width="match_parent"
+				android:layout_weight="1.0"
+				android:id="@+id/colordialoglayoutEditTextARGB" android:inputType="text"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			style="@style/Widget.AppCompat.Button.Small"
+			android:text="@string/select"
+			android:layout_width="wrap_content"
+			android:id="@+id/colordialoglayoutButtonOk"/>
+
+	</TableRow>
+
+</LinearLayout>
+

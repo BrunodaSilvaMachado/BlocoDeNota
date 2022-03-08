@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="colorPrimary">#00A658</color>
+    <color name="colorPrimaryDark">#ff007936</color>
+    <color name="colorAccent">#22aa99</color>
+    <color name= "florecente"> #00FFA5 </color>
+    <color name= "isopor"> #FBFBFB </color>
+    <color name= "verdana"> #1CD180 </color>
+</resources>

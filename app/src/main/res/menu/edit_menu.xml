@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+            android:id="@+id/mainMenuColor"
+            android:title="@string/color"
+            app:showAsAction="ifRoom"/>
+    <item android:id="@+id/mainMenuSize"
+          android:title="@string/size"
+          app:showAsAction="always"/>
+    <item android:id="@+id/mainMenuStyle"
+          android:title="@string/style"
+          app:showAsAction="always"/>
+</menu>

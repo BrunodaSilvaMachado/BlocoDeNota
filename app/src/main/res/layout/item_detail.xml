@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              tools:context=".controller.ItemDetailFragment"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+    <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_background"
+            android:theme="@style/ThemeOverlay.AppCompat.Light"
+            android:minHeight="?attr/actionBarSize" android:id="@+id/toolbar"/>
+    <TextView
+            android:textSize="36sp"
+            android:textStyle="bold"
+            android:padding="16dp"
+            android:textColor="@color/verdana"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/title_nota"/>
+    <TextView
+            style="?android:attr/textAppearanceSmall"
+            android:textColor="#cdcdcd"
+            android:padding="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/date_nota"/>
+    <TextView
+            android:id="@+id/item_detail"
+            style="?android:attr/textAppearanceLarge"
+            android:padding="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textIsSelectable="true"/>
+</LinearLayout>
+

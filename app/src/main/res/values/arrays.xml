@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="actions">
+        <item>@string/options</item>
+        <item>@string/style</item>
+        <item>@string/size</item>
+        <item>@string/color</item>
+    </string-array>
+</resources>

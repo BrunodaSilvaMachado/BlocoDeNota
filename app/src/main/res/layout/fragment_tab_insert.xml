@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+                      android:background="@color/verdana"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal">
+        <ImageButton
+                android:id="@+id/action_blockquote"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@null"
+                android:contentDescription="@string/blockquote"
+                android:src="@drawable/blockquote"/>
+
+        <ImageButton
+                android:id="@+id/action_insert_image"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@null"
+                android:contentDescription="@string/insert_image"
+                android:src="@drawable/insert_image"/>
+
+        <ImageButton
+                android:id="@+id/action_insert_audio"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@null"
+                android:contentDescription="@string/insert_audio"
+                android:src="@drawable/music"/>
+
+        <ImageButton
+                android:id="@+id/action_insert_video"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@null"
+                android:contentDescription="@string/insert_video"
+                android:src="@drawable/video"/>
+
+        <ImageButton
+                android:id="@+id/action_insert_youtube"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@null"
+                android:contentDescription="@string/insert_youtube"
+                android:src="@drawable/youtube"/>
+
+        <ImageButton
+                android:id="@+id/action_insert_link"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@null"
+                android:contentDescription="@string/insert_link"
+                android:src="@drawable/insert_link"/>
+
+        <ImageButton
+                android:id="@+id/action_insert_checkbox"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@null"
+                android:contentDescription="@string/insert_checkbox"
+                android:src="@android:drawable/checkbox_on_background"/>
+    </LinearLayout>
+
+</HorizontalScrollView>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:app="http://schemas.android.com/apk/res-auto"
+		android:layout_width="match_parent" android:layout_height="match_parent"
+		android:padding="8dp"
+		android:orientation="vertical"
+>
+
+	<TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+			  android:text="@string/reminder" android:id="@+id/alarmdialogText"
+			  android:drawableStart="@drawable/baseline_access_alarm_black_18dp"
+			  android:textAppearance="?android:attr/textAppearanceLarge"
+			  app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"/>
+	<androidx.core.widget.NestedScrollView
+			android:id="@+id/alarmdialogNestedScrollView"
+			android:layout_width="match_parent" android:layout_height="wrap_content"
+			android:fillViewport="true" android:orientation="vertical"
+			app:layout_constraintTop_toBottomOf="@id/alarmdialogText"
+			app:layout_constraintBottom_toTopOf="@+id/alarmTableRow">
+		<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+					  android:orientation="vertical">
+			<DatePicker
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:calendarViewShown="true"
+					android:spinnersShown="false"
+					android:id="@+id/alarmdialogDatePicker"/>
+			<TimePicker
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"
+					android:id="@+id/alarmdialogTimePicker"/>
+
+		</LinearLayout>
+
+	</androidx.core.widget.NestedScrollView>
+	<TableRow android:layout_width="match_parent" android:layout_height="wrap_content"
+			  android:id="@+id/alarmTableRow" android:background="@color/verdana"
+			  app:layout_constraintStart_toStartOf="parent" app:layout_constraintBottom_toBottomOf="parent">
+		<CheckBox
+				android:text="@string/repeat"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_weight="1.0"
+				android:id="@+id/alarmdialogCheckBox"
+				android:textAppearance="?android:attr/textAppearanceMedium"/>
+		<Button
+				android:layout_height="wrap_content" android:layout_width="wrap_content"
+				android:layout_weight="0.1"
+				android:background="@color/verdana" style="?android:attr/buttonStyleSmall"
+				android:text="@string/ok" android:textSize="18sp"
+				android:id="@+id/alarmdialogButton"
+				android:padding="8dp"/>
+	</TableRow>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

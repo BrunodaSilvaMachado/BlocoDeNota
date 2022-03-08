@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BlocoDeNotas</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="sub_app_name">Edit text</string>
+    <string name="my_notes">My notes</string>
+    <string name="mainButton1Text">Add note</string>
+    <string name="send">Send</string>
+    <string name="save">Save</string>
+    <string name="digite_seu_pensamento">Enter your thought!</string>
+
+    <string name="title_activity_busca">Search notes</string>
+    <string name="search">Search</string>
+    <string name="sua_busca">keyword</string>
+
+    <string name="excluir">Delete</string>
+    <string name="sim">Yes</string>
+    <string name="nao">No</string>
+    <string name="apaga_nota_dlg">Delete the note?</string>
+    <string name="salvo">Saved</string>
+    <string name="no_empty_notes">The note is void</string>
+    <string name="info">Information</string>
+    <string name="invalid_note">This not is a note valid</string>
+    <string name="style">Text Style</string>
+    <string name="color">Color</string>
+    <string name="size">Size</string>
+    <!-- text styles-->
+    <string name="textNormal">Normal</string>
+    <string name="textItalic">Italic</string>
+    <string name="textBold">Bold</string>
+    <!--text color message-->
+    <string name="red">Red:</string>
+    <string name="green">Green:</string>
+    <string name="blue">Blue:</string>
+    <string name="select">Select</string>
+    <string name="edit">Edit</string>
+    <string name="reminder">Reminder</string>
+    <string name="editar_nota">Editar a nota selecionada</string>
+    <string name="enviar_nota">Send note</string>
+    <string name="delete_notes">Delete notes?</string>
+    <string name="options">Options</string>
+    <string name="repeat">Repeat</string>
+    <string name="completed">Completed</string>
+    <string name="putoff">Put off</string>
+    <string name="ok">OK</string>
+    <string name="title_item_detail">Item Details</string>
+    <string name="putoff_time">Alarm in 5 minutes</string>
+
+    <string name="html_preview" translatable="false">HTML Preview</string>
+    <string name="subscript">Subscript</string>
+    <string name="superscript">Superscript</string>
+    <string name="strikethrough">Strikethrough</string>
+    <string name="underline">Underline</string>
+    <string name="heading1">heading 1</string>
+    <string name="heading2">Heading 2</string>
+    <string name="heading3">Heading 3</string>
+    <string name="heading4">Heading 4</string>
+    <string name="heading5">Heading 5</string>
+    <string name="heading6">Heading 6</string>
+    <string name="txt_color">Text color</string>
+    <string name="bg_color">Background color</string>
+    <string name="indent">Indent</string>
+    <string name="outdent">outdent</string>
+    <string name="align_left">Align left</string>
+    <string name="align_center">Align center</string>
+    <string name="align_right">Align right</string>
+    <string name="insert_bullets">Insert bullets</string>
+    <string name="insert_numbers">Insert numbers</string>
+    <string name="blockquote">Block quote</string>
+    <string name="insert_image">Insert Image</string>
+    <string name="insert_audio">Insert Audio</string>
+    <string name="insert_video">Insert video</string>
+    <string name="insert_youtube">Insert youtube</string>
+    <string name="insert_link">Insert link</string>
+    <string name="insert_checkbox">Insert checkbox</string>
+    <string name="insert_text_here">Type text here..</string>
+    <string name="undo">Undo</string>
+    <string name="redo">Redo</string>
+    <string name="insert">Insert</string>
+    <string name="title">Title</string>
+    <string name="paragraph">Paragraph</string>
+    <string name="makers">Makers</string>
+    <string name="argb" translatable="false">argb</string>
+    <string name="file">File</string>
+
+</resources>
